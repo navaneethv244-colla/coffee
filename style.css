@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color:#DFCDBF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header h1{
+    color: rgb(161, 111, 111);
+}
+header h1:hover{
+    color: black;
+}
+#hero{
+    height: 550px;
+    background-image: url(https://images.unsplash.com/photo-1643881578966-1d6ea6d20de7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hero h1{
+    position: absolute;
+    top: 20%;
+    left: 60px;
+    right: 100px;
+    color: rgb(177, 134, 134);
+    font-size: 100px;
+    text-align: end;
+}
+.row{
+    height: 500px;
+    background-color: rgb(53, 11, 11);
+    margin: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.row h1{
+    text-align: center;
+    color: #DFCDBF;
+}
+.col{
+    width: 200px;
+    height: 300px;
+    background-color:#EFEFEF;
+    border-radius: 15px;
+    position: absolute;
+}
+.c1{
+    left: 100px;
+    top: 80px;
+}
+.c2{
+    top: 80px;
+    left: 350px;
+}
+.c3{
+    top: 80px;
+    left: 600px;
+}
+.c4{
+    top: 80px;
+    left: 850px;
+}
+.col img{
+    width: 90px;
+    position: absolute;
+   left: 51px;
+    top: 80px;
+}
+.col h3{
+    position: absolute;
+    left: 40px;
+    top: 200px;
+}
+.col button{
+   position: absolute;
+    left: 56px;
+    top: 250px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(223, 54, 54);
+    border: none;
+    color: white;
+}
+.col button:hover{
+     background-color: rgb(255, 0, 0);
+}
+.horicca{
+    height: 500px;
+    margin: 30px;
+    background-image: url(https://www.roosterbrother.com/wp-content/uploads/2017/06/coffee-background-top-1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.horicca .div1{
+    width: 400px;
+    height: 200px;
+    background-color:rgb(33, 2, 2);
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    border-radius: 20px;
+     background-color: rgb(53, 11, 11);
+     color: #DFCDBF;
+} 
+.div1 h3{
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.div1 button{
+    position: relative;
+    top: 80px;
+    left: 150px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(190, 87, 87);
+    border: none;
+    color: rgb(230, 213, 64);
+
+}
+
+.horicca .div2{
+      width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 650px;
+    top: 100px;
+    background-color:rgb(140, 85, 85);
+   color: black;
+   border-radius: 10px;
+   padding: 10px;
+}
+.div2 p{
+    text-align: justify;
+}
+.footer{
+    height: 500px;
+    margin: 30px;
+     background-color: rgb(53, 11, 11);
+}
+.footer{
+    color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer div{
+    margin-left: 50px;
+}
+.footer ul{
+   list-style: none;
+   line-height: 30px;
+}
+.footer input{
+    background-color: transparent;
+   color:antiquewhite;
+   border-color: antiquewhite;
+}
